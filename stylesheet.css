@@ -1,0 +1,54 @@
+/* Selectores de Tag */
+body {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/53/Vaporwave-4K-Wallpapers.jpg");
+    background-position: center;
+    object-fit: contain;
+}
+h3{
+    font-family: 'Sriracha', cursive;
+    color: #00ffbf;
+}
+button{
+    background: orange;
+    border-radius: 35%;
+}
+
+/* Selectores de clase */
+.container{
+    margin: auto;
+    background: purple;
+    opacity: 0.85;
+    width: 400px;
+    height: 400px;
+    margin-top: 25vh;
+    padding: 1em;
+    border-radius: 20%; 
+    transition: all .2s ease-in-out;
+    border: 5px solid pink;
+}
+.container__img{
+    display: flex;
+    justify-content: center;  
+}
+img{
+    width: 250px;
+    height: 250px;
+    margin-top: 2em;
+    border-radius: 15%; 
+}
+.container__excuse{
+    display: flex;
+    justify-content: center;
+}
+.container__button {
+  display: flex;
+  justify-content: center;
+}
+
+/* Pseudo-Selectores */
+.container:hover{
+    transform: scale(1.2);
+}
+button:hover{
+    background: #FF00FF;
+}
